@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fefefe;
+    max-width:1000px;
+}
+
+header{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-image: url("img/woda2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 20vh;
+}
+#nurek{
+    height: 8vh;
+    width: 18vw;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    margin-top: 2vh;
+}
+
+#menu{
+    display: flex; /*Dynamiczny kontener*/
+    margin-left: 2vw;
+    margin-right: 4vw;
+    height: 7.4vh;
+    width: 70vw;
+    margin-top: 2vh;
+}
+
+.menu-item{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5vw;
+    padding-top: 0.6vh;
+    text-decoration: none;
+    color: black;
+}
+
+#zawartosc{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: black;
+}
+#kolumna1, #kolumna2, #kolumna3, #kolumna4{
+    display: flex;
+    flex-direction: column;
+    background-color: darkblue;
+    color:white;
+}
+#kolumna1{
+    margin-left: 8vw;
+    padding: 3vw;
+    width: 34vw;
+}
+#kolumna2, #kolumna3, #kolumna4{
+    margin-right: 8vw;
+    padding: 3vw;
+    padding-top: 15vh;
+    font-size: 1.3vw;
+    width: 50vw;
+}
+#kolumna3{
+    height: 30vw;
+}
+#kolumna4{
+    align-items: center;
+}
+#malinka, #nurek2, #ladowy, #ozdobny, #morski{
+    width: 25vw;
+    height: 35vh;
+    margin-top: 5vh;
+    border-radius: 2vw;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 5vh;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.8vw;
+    padding-top: 1vh;
+    background-color: darkblue;
+    color:white;
+}
+.link{
+    text-decoration: underline;
+    color: powderblue;
+}
+ul{
+    padding-left: 3vw;
+}
+button{
+    margin-top: 4vh;
+    font-size: 1.8vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12vw ;
+    margin-right: 12vw ;
+    border-radius: 0.5vw;
+}
